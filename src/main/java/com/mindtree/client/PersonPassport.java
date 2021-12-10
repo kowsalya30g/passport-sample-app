@@ -15,6 +15,7 @@ public class PersonPassport {
 			System.out.println("--------------------------------------------------");
 			System.out.println("1.get person details\n2.get passport and assign to person\n 3.displayall\n4.sort birthplace\n5.exit");
 			System.out.println("---------------------------------------------------");
+			System.out.println("Hello");
 			System.out.println("Enter your choice");
 			choice = sc.nextInt();
 			switch(choice) {
@@ -51,7 +52,6 @@ public class PersonPassport {
 				break;
 			case 5:
 				System.out.println("Thanku for passport ");
-				System.out.println("hi hello passport");
 				cond = false;
 				break;
 			default:

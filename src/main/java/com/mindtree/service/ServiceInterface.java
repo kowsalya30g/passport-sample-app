@@ -7,5 +7,6 @@ public interface ServiceInterface {
 	public void getPassport() throws ServiceException;
 	public void displayAll() throws ServiceException;
 	public void sortByBirthPlace() throws ServiceException;
+	System.out.println("hai");
 
 }
