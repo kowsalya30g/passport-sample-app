@@ -29,6 +29,9 @@ public class ServiceException extends PassportException{
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	public ServiceException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
 
 }

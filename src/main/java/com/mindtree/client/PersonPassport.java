@@ -51,6 +51,7 @@ public class PersonPassport {
 				break;
 			case 5:
 				System.out.println("Thanku for passport ");
+				System.out.println("hi hello passport");
 				cond = false;
 				break;
 			default:
